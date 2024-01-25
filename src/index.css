@@ -1,0 +1,52 @@
+::selection{
+  color: rgb(255, 166, 0);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy ExtraBold';
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+.main{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #27262A;
+}
+.bg-main{
+  position: fixed;
+  z-index: 2;
+  height: 100vh;
+  width: 100%;
+}
+.docs{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 12vw;
+  letter-spacing: -.5vw;
+  transform: translate(-50%,-50%);
+  line-height: none;
+  color: #171619;
+}
+.nav{
+  display: flex;
+  position: absolute;
+  padding: 2vw;
+  width: 100%;
+  top: 5%;
+  justify-content: center;
+  color: grey;
+}
+.fr-ground{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+    left: 0;  
+}
