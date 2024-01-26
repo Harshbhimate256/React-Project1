@@ -8,22 +8,28 @@ function Foreground() {
 
   const data = [
     {
-      desc: "Est deserunt id laborum consectetur anim ad eu tempor amet labore.",
+      desc: "This is first document or description where you can download it",
       filesize: ".9mb",
-      close: true,
+      close: false,
       tag: {isOpen: true, tagTitle: "Download Now" , tagColor: "green"},
     },
     {
-      desc: "Est deserunt id laborum consectetur anim ad eu tempor amet labore.",
-      filesize: ".9mb",
-      close: true,
+      desc: "This is second description or kind of ToDo ",
+      filesize: "",
+      close: false,
       tag: {isOpen: false, tagTitle: "Download Now" , tagColor: "green"},
     },
     {
-      desc: "Est deserunt id laborum consectetur anim ad eu tempor amet labore.",
-      filesize: ".9mb",
+      desc: "This is third description or document where you can upload something specific like files aur folders or audios",
+      filesize: "2.9mb",
       close: true,
       tag: {isOpen: true, tagTitle: "Upload" , tagColor: "blue"},
+    },
+    {
+      desc: "This is fourth description, it wont work becoz its only for client side, and server side data is not connected.",
+      filesize: "2.9mb",
+      close: true,
+      tag: {isOpen: true, tagTitle: "Download" , tagColor: "orange`"},
     },
   ];
 
